@@ -97,7 +97,7 @@ export default function App() {
             </div>
 
             <p className="footer">
-              *hasil ini tidak bisa diganggu gugat
+              *hasil ini hanya bisa diubah dari yang rating saja.
             </p>
           </>
         )}
