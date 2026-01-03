@@ -74,7 +74,7 @@ export default function App() {
         {!started ? (
           <>
             <h1>Rate MY Girlfriend 💕</h1>
-            <p>Girlfriend Name : Syifa Rizky Amelia</p>
+            <p className="name">Girlfriend Name : Syifa Rizky Amelia</p>
             <button className="start-btn" onClick={() => setStarted(true)}>
               Mulai
             </button>
@@ -83,7 +83,6 @@ export default function App() {
           <>
             <h1>Rate MY Girlfriend 💕</h1>
             <p className="subtitle">Jawaban ini dijawab sejujur jujurnya 😌🙏</p>
-
             <div className="list">
               {ratings.map((item, index) => (
                 <div className="row fade" key={index}>
