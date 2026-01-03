@@ -8,21 +8,30 @@ type Rating = {
 };
 
 const ratings: Rating[] = [
+  // === LOOKS / PENAMPILAN ===
+  { label: "Cantik Natural", value: "10000/10", numeric: 999999 },
+  { label: "Senyum", value: "10000/10", numeric: 999999 },
+  { label: "Mata", value: "10000/10", numeric: 99999999999 },
+  { label: "Gaya Berpakaian", value: "10000/10", numeric: 900000 },
+
+  // === KEPRIBADIAN ===
   { label: "Lemah lembut", value: "10/10", numeric: 95 },
   { label: "Pengertian", value: "10000/10", numeric: 85 },
   { label: "Sabar", value: "10000/10", numeric: 900000 },
   { label: "Nurut", value: "10000/10", numeric: 80 },
-  { label: "Cerewet", value: "10000/10", numeric: 70 },
-  { label: "Galak", value: "10000/10", numeric: 45 },
-  { label: "Nyebelin", value: "10000/10", numeric: 60 },
+  { label: "Cerewet", value: "10000/10", numeric: 45 },
+  { label: "Galak", value: "10000/10", numeric: 65 },
+  { label: "Nyebelin", value: "10000/10", numeric: 55 },
   { label: "Cemburu", value: "10000/10", numeric: 15 },
-  { label: "Toxic", value: "10000/10", numeric: 1 },
   { label: "Lucu", value: "10000/10", numeric: 10000000 },
-  { label: "Keras Kepala", value: "10000/10", numeric: 55 },
-  { label: "Manja", value: "10000/10", numeric: 58 },
-  { label: "Marah / Ngambek", value: "10000/10", numeric: 65 },
+  { label: "Keras Kepala", value: "10000/10", numeric: 75 },
+  { label: "Manja", value: "10000/10", numeric: 38 },
+  { label: "Kalo Marah / Ngambek", value: "10000/10", numeric: 85 },
+
+  // === FINAL BOSS ===
   { label: "Kesayangan Aku", value: "Selamanya 💖" }
 ];
+
 
 export default function App() {
   const [started, setStarted] = useState(false);
