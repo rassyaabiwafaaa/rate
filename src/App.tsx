@@ -74,6 +74,7 @@ export default function App() {
         {!started ? (
           <>
             <h1>Rate MY Girlfriend 💕</h1>
+            <p>Girlfriend Name : Syifa Rizky Amelia</p>
             <button className="start-btn" onClick={() => setStarted(true)}>
               Mulai
             </button>
