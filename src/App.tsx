@@ -11,7 +11,7 @@ const ratings: Rating[] = [
   // === LOOKS / PENAMPILAN ===
   { label: "Cantik Natural", value: "10000/10", numeric: 999999 },
   { label: "Senyum", value: "10000/10", numeric: 999999 },
-  { label: "Mata", value: "10000/10", numeric: 99999999999 },
+  { label: "Mata", value: "10000/10", numeric: 999999 },
   { label: "Gaya Berpakaian", value: "10000/10", numeric: 900000 },
 
   // === KEPRIBADIAN ===
@@ -74,9 +74,6 @@ export default function App() {
         {!started ? (
           <>
             <h1>Rate MY Girlfriend 💕</h1>
-            <br />
-            <p className="subtitle">Klik dibawahhh</p>
-
             <button className="start-btn" onClick={() => setStarted(true)}>
               Mulai
             </button>
